@@ -102,7 +102,7 @@ Copy `environmentoptional.sty` to your LaTeX distribution's `texmf` directory or
 Specify default values for optional arguments using brackets in the package declaration:
 
 ```latex
-\newenvironmentoptionals{custom}[3][default1][default2][default3]{
+\newenvironmentoptionals{custom}[3][0][default1][default2][default3]{
   #1, #2, #3
 }{
   \par
