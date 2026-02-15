@@ -40,13 +40,13 @@ Start B: Opt1=#1, Opt2=#2, Mand=#3, Mand2=#4.
 \relax 
 \endoptionals{myenvC}
 
-\newenvironmentoptionals{myenvD}[2][1]{
+\newenvironmentoptionals{myenvD}[2][1][opt1][opt2]{
 #1-#2-#3
 }{
 \relax
 }
 
-\beginoptionals{myenvD}[optional1][optional2]{mandatory1}
+\beginoptionals{myenvD}{mandatory1}
 \relax
 \endoptionals{myenvD}
 

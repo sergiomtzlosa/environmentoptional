@@ -109,7 +109,7 @@ Specify default values for optional arguments using brackets in the package decl
 }
 ```
 
-If an optional argument is not provided, the default value is used.
+If an optional argument is not provided, the default value is used. Ad-hoc environments defined via `\beginoptionals` also support this if the metadata is already stored.
 
 ## Error Handling
 
